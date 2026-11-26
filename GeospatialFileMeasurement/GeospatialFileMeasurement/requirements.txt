@@ -1,0 +1,32 @@
+# ==============================================================================
+# Runtime Dependencies for Geospatial File Measurement API
+# Pinned for Python 3.12 (Cross-Platform: Windows, Linux, macOS)
+# ==============================================================================
+
+# Core Web Framework & ASGI Server
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+
+# Application Configuration & Validation
+pydantic==2.14.0
+pydantic-settings==2.15.0
+
+# Database & Async ORM
+sqlalchemy==2.1.4
+asyncpg==0.32.0
+psycopg[binary]==3.3.6
+greenlet==3.5.6
+
+# Geospatial Engine & Data Processing
+geopandas==1.2.0
+shapely==2.2.0
+pyproj==3.8.0
+fiona==1.10.1
+pyogrio==0.13.0
+pandas==3.0.6
+numpy==2.5.3
+
+# Caching & Rate Limiting
+slowapi==0.1.10
+cachetools==7.2.1
